@@ -18,17 +18,18 @@
             "homepage": "https://github.com/KnpLabs/KnpMenuBundle/contributors"
         }
     ],
-    "require":      {
-        "php": "^5.6 || ^7",
-        "knplabs/knp-menu":         "~2.2",
-        "symfony/framework-bundle": "~2.7|~3.0"
+    "minimum-stability": "beta",
+    "require": {
+        "php": "^7.1",
+        "knplabs/knp-menu": "~2.2",
+        "symfony/framework-bundle": "v4.0.0-beta1"
     },
-    "require-dev":  {
-        "symfony/phpunit-bridge": "^3.3",
-        "symfony/expression-language": "~2.7|~3.0",
-        "symfony/templating": "~2.7|~3.0"
+    "require-dev": {
+        "symfony/phpunit-bridge": "^4.0.0-BETA1",
+        "symfony/expression-language": "v4.0.0-BETA1",
+        "symfony/templating": "^4.0.0-BETA1"
     },
-    "autoload":     {
+    "autoload": {
         "psr-4": { "Knp\\Bundle\\MenuBundle\\": "" }
     },
     "extra": {
